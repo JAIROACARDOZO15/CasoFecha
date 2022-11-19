@@ -1,6 +1,7 @@
 package ejecutable;
 
 import modelo.Fecha;
+import modelo.FechaDetallada;
 
 public class Test 
 {
@@ -38,6 +39,9 @@ public class Test
 
         f.addDias(360);
         System.out.println(f.toString());
+
+        FechaDetallada fecha1 = new FechaDetallada(19, 11, 2022);
+        System.out.println(fecha1.toString());
 
     }
 }
